@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Alpha Auto Care</title>
+<meta name="description" content="Contact Alpha Auto Care by WhatsApp or send an inquiry.">
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="container bar">
+<a class="logo" href="index.html" aria-label="Alpha Auto Care, home">ALPHA<small>AUTO CARE</small></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">&#9776;</button>
+<nav class="nav" id="site-nav" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html" aria-current="page">Contact</a><a class="btn" href="contact.html">Book an Inquiry</a></nav>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="container"><h1>Contact Us</h1><p>Ask about a service or tell us about your vehicle. The quickest way to reach us is WhatsApp.</p></div></section>
+<section><div class="container contact"><div><h2>Get in touch</h2><ul class="info"><li><span>Phone</span>[Add phone number]</li><li><span>Email</span>[Add email address]</li><li><span>Address</span>[Add address]</li><li><span>Opening hours</span>[Add opening hours]</li></ul>
+<a class="btn" data-wa="Hello Alpha Auto Care, I would like to ask about your detailing services." href="contact.html">Chat on WhatsApp</a></div>
+<form id="inquiry-form" novalidate><h2>Send an inquiry</h2><p>This form does not send your details to a server. When you press the button, it opens WhatsApp with your message ready for you to review and send.</p>
+<div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name"><span class="error" data-error-for="name" aria-live="polite"></span></div><div class="field"><label for="phone">Phone or WhatsApp number</label><input id="phone" name="phone" type="tel" autocomplete="tel"><span class="error" data-error-for="phone" aria-live="polite"></span></div><div class="field"><label for="email">Email address (optional)</label><input id="email" name="email" type="email" autocomplete="email"><span class="error" data-error-for="email" aria-live="polite"></span></div>
+<div class="field"><label for="service">Service of interest</label><select id="service" name="service"><option value="">Choose a service</option><option>Full Vehicle Detailing</option><option>Interior Detailing</option><option>Paint Protection</option><option>Interior Cleaning</option><option>Not sure yet</option></select><span class="error" data-error-for="service" aria-live="polite"></span></div>
+<div class="field"><label for="vehicle">Vehicle make and model (optional)</label><input id="vehicle" name="vehicle" type="text"><span class="error" data-error-for="vehicle" aria-live="polite"></span></div>
+<div class="field"><label for="message">Message (optional)</label><textarea id="message" name="message" rows="4"></textarea></div>
+<button class="btn" type="submit">Prepare WhatsApp Message</button></form></div></section>
+</main>
+<footer class="site-footer"><div class="container">
+<div class="foot">
+<div><a class="logo" href="index.html" aria-label="Alpha Auto Care, home">ALPHA<small>AUTO CARE</small></a><p style="margin-top:1rem">Professional vehicle detailing focused on cleanliness, protection and attention to detail.</p></div>
+<div><h3>Pages</h3><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h3>Services</h3><ul><li><a href="services.html#full-detailing">Full Vehicle Detailing</a></li><li><a href="services.html#interior-detailing">Interior Detailing</a></li><li><a href="services.html#paint-protection">Paint Protection</a></li><li><a href="services.html#interior-cleaning">Interior Cleaning</a></li></ul></div>
+<div><h3>Contact</h3><ul><li>Phone: [Add phone number]</li><li>Email: [Add email address]</li><li>Address: [Add address]</li><li>Hours: [Add opening hours]</li></ul></div>
+</div>
+<p class="copy">&copy; <span data-year>2026</span> Alpha Auto Care. All rights reserved.</p>
+</div></footer>
+</body>
+</html>
